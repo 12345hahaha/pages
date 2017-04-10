@@ -1,0 +1,103 @@
+body,h1,ul,h2,h3,p,figure,ol{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color:#fff ;
+}
+a {
+	text-decoration: none;
+}
+ul,ol {
+	list-style: outside none none;
+}
+#navhui {
+	width: 100%;
+	min-width: 1263px;
+	height: 70px;
+	background: #333;
+}
+#navhui .center {
+	width: 1263px;
+	margin: 0 auto;
+}
+#navhui .logo {
+	width:240px ;
+	height: 70px;
+	background-image:url(../img/logo.png) ;
+	text-indent: -9999px;
+	float: left;
+}
+#navhui .link {
+	width: 800px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	float: right;
+}
+#navhui .link li {
+	float: left;
+	width:120px ;
+	height: 70px;
+	text-align: center;
+	
+}
+.loginaaaa, .register{
+	width: 50px !important;
+	position: relative;
+	left: 150px;
+	
+}
+#navhui .link a {
+	display: block;
+	color: #eee;
+}
+#navhui .link .active,
+#navhui .link a:hover {
+	background-color: #000;
+}
+#footer {
+	height: 360px;
+	background-color: #222;
+	clear: both;
+	position: relative;
+	top: 20px;
+}
+#footer .top {
+	width: 1263px;
+	height: 280px;
+	margin: 0 auto;
+    color: #ccc;
+	text-align: center;
+}
+#footer .block {
+	width: 410px;
+	height: 280px;
+	/*background-color: red;*/
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+#footer .block h2 {
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+}
+#footer hr {
+	width: 90%;
+	border: 1px dashed #333;
+}
+#footer ul {
+	text-indent: 20px;
+	color: #666;
+	font-size: 18px;
+	line-height: 2;
+}
+#footer .bottom {
+	height: 80px;
+	color: #777;
+	text-align: center;
+	line-height: 80px;
+	background-color:#000 ;
+	border-top: 1px solid #444;
+}
